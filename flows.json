@@ -197,6 +197,14 @@
         "env": []
     },
     {
+        "id": "8ae6c04d23f21fdf",
+        "type": "tab",
+        "label": "Flow 6",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "7e76196267146ede",
         "type": "ui-base",
         "name": "My Dashboard",
@@ -1416,8 +1424,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 510,
-        "y": 400,
+        "x": 570,
+        "y": 360,
         "wires": [
             [
                 "62d3eb49dca979a7"
@@ -3550,8 +3558,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 980,
-        "y": 220,
+        "x": 1010,
+        "y": 200,
         "wires": [
             []
         ]
@@ -5927,6 +5935,51 @@
         "valueType": "msg",
         "x": 330,
         "y": 940,
+        "wires": []
+    },
+    {
+        "id": "b3f62c048b553862",
+        "type": "inject",
+        "z": "8ae6c04d23f21fdf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 220,
+        "wires": [
+            [
+                "9b8e712c09d6d66c"
+            ]
+        ]
+    },
+    {
+        "id": "9b8e712c09d6d66c",
+        "type": "debug",
+        "z": "8ae6c04d23f21fdf",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 200,
         "wires": []
     }
 ]
