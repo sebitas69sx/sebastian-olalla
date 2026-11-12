@@ -1,0 +1,5932 @@
+[
+    {
+        "id": "443f516c02693a8e",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e89254d2f04477ea",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2175683c8d5a7e21",
+        "type": "tab",
+        "label": "Http",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "cfe1cb7daa8ea3ee",
+        "type": "tab",
+        "label": "Servidor con post",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "64d31c059ba267af",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "tab_servidor",
+        "type": "tab",
+        "label": "Servidor REST",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b16642913ba02898",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "58edb22782f0d35b",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e1e1943be35643df",
+        "type": "tab",
+        "label": "Cliente REST",
+        "disabled": false,
+        "info": "Pestaña Cliente REST: Contiene los botones de la interfaz gráfica (Dashboard) y los nodos HTTP Request que realizan peticiones GET al servidor para consultar el consumo y la ubicación."
+    },
+    {
+        "id": "4711a5b59ec63284",
+        "type": "tab",
+        "label": "Servidor REST",
+        "disabled": false,
+        "info": "Pestaña Servidor REST: Contiene el endpoint /API/6toB/Carlos que procesa las solicitudes, calcula dinámicamente el consumo energético y retorna las respuestas en formato JSON."
+    },
+    {
+        "id": "38b8d2221e522614",
+        "type": "tab",
+        "label": "Inicio (Explicación y enlaces)",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4e5fb9e593e180fb",
+        "type": "tab",
+        "label": "Laboratorio Inicial A (Change)",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ca1a0515bb17f1b5",
+        "type": "tab",
+        "label": "Laboratorio Inicial B (Temperatura)",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "76f8d2cd71667f99",
+        "type": "tab",
+        "label": "Laboratorio 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "14b779aef36c5ca6",
+        "type": "tab",
+        "label": "Laboratorio 1.1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "92b935c3efba8b9a",
+        "type": "tab",
+        "label": "Laboratorio 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "84e72135f08a6d56",
+        "type": "tab",
+        "label": "Laboratorio 3 MQTT entrada y salida",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "861060c89d7ff68b",
+        "type": "tab",
+        "label": "Laboratorio 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "64f4ff8c3aaa24f4",
+        "type": "tab",
+        "label": "Laboratorio 5 HTTP Cliente",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "349811e150e1d013",
+        "type": "tab",
+        "label": "Laboratorio 5 HTTP Servidor",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b9c2f04cdf364e7a",
+        "type": "tab",
+        "label": "Práctica de Ejercicio MQTT",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "48e88f6d9f083af8",
+        "type": "tab",
+        "label": "Laboratorio 6 Cliente POST",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b00983185c0bcf40",
+        "type": "tab",
+        "label": "Laboratorio 6 Servidor POST",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c66a900e6aefbe77",
+        "type": "tab",
+        "label": "Clase 1 Cliente",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b440b7bedd8ff139",
+        "type": "tab",
+        "label": "Clase 1 Panel",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7e76196267146ede",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "71f87efc41c14297",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#fcfcfd",
+            "primary": "#0d74ce",
+            "bgPage": "#f9f9fb",
+            "groupBg": "#ffffff",
+            "groupOutline": "#d9d9e0"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "c4fcf27b46a0c708",
+        "type": "ui-page",
+        "name": "Page 1",
+        "ui": "7e76196267146ede",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "71f87efc41c14297",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": 0,
+                "cols": 3
+            },
+            {
+                "name": "Tablet",
+                "px": 576,
+                "cols": 6
+            },
+            {
+                "name": "Small Desktop",
+                "px": 768,
+                "cols": 9
+            },
+            {
+                "name": "Desktop",
+                "px": 1024,
+                "cols": 12
+            }
+        ],
+        "tabs": [],
+        "order": 14,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "93c75dc7999a4096",
+        "type": "ui-group",
+        "name": "Group 1",
+        "page": "c4fcf27b46a0c708",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": true,
+        "disabled": false,
+        "groupType": "default",
+        "tab": ""
+    },
+    {
+        "id": "09e323884a6fa406",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#fcfcfd",
+            "primary": "#0d74ce",
+            "bgPage": "#f9f9fb",
+            "groupBg": "#ffffff",
+            "groupOutline": "#d9d9e0"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "3e2cddb3371ca415",
+        "type": "ui-page",
+        "name": "Taller 6",
+        "ui": "7e76196267146ede",
+        "path": "/T6",
+        "icon": "home",
+        "layout": "notebook",
+        "theme": "09e323884a6fa406",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 15,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "ee015a84b5230a26",
+        "type": "ui-group",
+        "name": "Taller 6",
+        "page": "3e2cddb3371ca415",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a97095e22e85c0e3",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "cf01375e0ba287c2",
+        "type": "ui-page",
+        "name": "Monitoreo Energetico",
+        "ui": "7e76196267146ede",
+        "path": "/page3",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "71f87efc41c14297",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "tabs": [],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "5e3d3e6fd3322402",
+        "type": "ui-group",
+        "name": "Group Name",
+        "page": "cf01375e0ba287c2",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "tab": ""
+    },
+    {
+        "id": "30c92f729dc4e2d4",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#fcfcfd",
+            "primary": "#0d74ce",
+            "bgPage": "#f9f9fb",
+            "groupBg": "#ffffff",
+            "groupOutline": "#d9d9e0"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "c1134332b1464c70",
+        "type": "ui-page",
+        "name": "Inicio",
+        "ui": "7e76196267146ede",
+        "path": "/inicio",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "38ee26f259ac1bf8",
+        "type": "ui-group",
+        "name": "Plataforma IoT - UTMACH",
+        "page": "c1134332b1464c70",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3d024196474a72c6",
+        "type": "ui-page",
+        "name": "Lab Inicial A - Change",
+        "ui": "7e76196267146ede",
+        "path": "/lab-inicial-a",
+        "icon": "swap-horizontal",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "489f0908340b05b6",
+        "type": "ui-group",
+        "name": "Descripción del laboratorio",
+        "page": "3d024196474a72c6",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "437fe82963d4a167",
+        "type": "ui-group",
+        "name": "Lab Inicial A - Change",
+        "page": "3d024196474a72c6",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3c6a984cf0e8759a",
+        "type": "ui-page",
+        "name": "Lab Inicial B - Temperatura",
+        "ui": "7e76196267146ede",
+        "path": "/lab-inicial-b",
+        "icon": "thermometer",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 4,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "9fb38ee00ee01bf0",
+        "type": "ui-group",
+        "name": "Descripción del laboratorio",
+        "page": "3c6a984cf0e8759a",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "9079f5b2bbbbadbd",
+        "type": "ui-group",
+        "name": "Lab Inicial B - Temperatura",
+        "page": "3c6a984cf0e8759a",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "0c9f99f36c007e7c",
+        "type": "ui-page",
+        "name": "Laboratorio 1",
+        "ui": "7e76196267146ede",
+        "path": "/lab1",
+        "icon": "gauge",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 5,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "8e78f5ab92fb849a",
+        "type": "ui-group",
+        "name": "Descripción del laboratorio",
+        "page": "0c9f99f36c007e7c",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "03b7800db21f5d64",
+        "type": "ui-group",
+        "name": "Laboratorio 1",
+        "page": "0c9f99f36c007e7c",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "54e2b4b352c11d6d",
+        "type": "ui-page",
+        "name": "Laboratorio 1.1",
+        "ui": "7e76196267146ede",
+        "path": "/lab1-1",
+        "icon": "led-on",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 6,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "ed9fb4d18876bac6",
+        "type": "ui-group",
+        "name": "Descripción del laboratorio",
+        "page": "54e2b4b352c11d6d",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a0878bf7568dea94",
+        "type": "ui-group",
+        "name": "Laboratorio 1.1",
+        "page": "54e2b4b352c11d6d",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "fec7f7bb09b170f3",
+        "type": "ui-page",
+        "name": "Laboratorio 2",
+        "ui": "7e76196267146ede",
+        "path": "/lab2",
+        "icon": "chart-line",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 7,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "f3c93d898e46e3a0",
+        "type": "ui-group",
+        "name": "Descripción del laboratorio",
+        "page": "fec7f7bb09b170f3",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "8175b1daed849813",
+        "type": "ui-group",
+        "name": "Laboratorio 2",
+        "page": "fec7f7bb09b170f3",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "cc242cf5ba5dcf5f",
+        "type": "ui-page",
+        "name": "Laboratorio 3 - MQTT",
+        "ui": "7e76196267146ede",
+        "path": "/lab3",
+        "icon": "access-point-network",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 8,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "af6420573e9616c1",
+        "type": "ui-group",
+        "name": "Descripción del laboratorio",
+        "page": "cc242cf5ba5dcf5f",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "95513c4aff9423be",
+        "type": "ui-group",
+        "name": "Laboratorio 3 - MQTT",
+        "page": "cc242cf5ba5dcf5f",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e533070fd930082c",
+        "type": "ui-page",
+        "name": "Laboratorio 4 - Puente MQTT",
+        "ui": "7e76196267146ede",
+        "path": "/lab4",
+        "icon": "bridge",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 9,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "37e2e71d861e9453",
+        "type": "ui-group",
+        "name": "Descripción del laboratorio",
+        "page": "e533070fd930082c",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3a863c1c1907e77e",
+        "type": "ui-group",
+        "name": "Laboratorio 4 - Puente MQTT",
+        "page": "e533070fd930082c",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3e537c07804ef193",
+        "type": "ui-page",
+        "name": "Laboratorio 5 - HTTP",
+        "ui": "7e76196267146ede",
+        "path": "/lab5",
+        "icon": "web",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 10,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "2da0b8c8539cac37",
+        "type": "ui-group",
+        "name": "Descripción del laboratorio",
+        "page": "3e537c07804ef193",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "c352c0bbc59418b4",
+        "type": "ui-group",
+        "name": "Laboratorio 5 - HTTP",
+        "page": "3e537c07804ef193",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "919399d0ca0225a1",
+        "type": "ui-page",
+        "name": "Práctica MQTT",
+        "ui": "7e76196267146ede",
+        "path": "/practica-mqtt",
+        "icon": "message-text",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 11,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "9e698d7f004d7bcf",
+        "type": "ui-group",
+        "name": "Descripción del laboratorio",
+        "page": "919399d0ca0225a1",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e560f07171ce2fb3",
+        "type": "ui-group",
+        "name": "Práctica MQTT",
+        "page": "919399d0ca0225a1",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "8df0bb1552bd0a6a",
+        "type": "ui-page",
+        "name": "Laboratorio 6 - POST",
+        "ui": "7e76196267146ede",
+        "path": "/lab6",
+        "icon": "send",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 12,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "33371b45a31715c8",
+        "type": "ui-group",
+        "name": "Descripción del laboratorio",
+        "page": "8df0bb1552bd0a6a",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "215beaf6d0aa18f3",
+        "type": "ui-group",
+        "name": "Laboratorio 6 - POST",
+        "page": "8df0bb1552bd0a6a",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "169e89508d4e858e",
+        "type": "ui-page",
+        "name": "Clase 1 - Invernadero",
+        "ui": "7e76196267146ede",
+        "path": "/clase1",
+        "icon": "sprout",
+        "layout": "grid",
+        "theme": "30c92f729dc4e2d4",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 13,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "34a5f038f6de0f8f",
+        "type": "ui-group",
+        "name": "Descripción del laboratorio",
+        "page": "169e89508d4e858e",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "9d4555bec4581822",
+        "type": "ui-group",
+        "name": "Clase 1 - Invernadero",
+        "page": "169e89508d4e858e",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "92714880e991c6e3",
+        "type": "mqtt-broker",
+        "name": "emqtx",
+        "broker": "broker.emqx.io",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "7b691d10a86ee398",
+        "type": "mqtt-broker",
+        "name": "Mosquitto_Local",
+        "broker": "localhost",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ff62dd987273727f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "36d8112bec3592ae",
+        "type": "inject",
+        "z": "443f516c02693a8e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 340,
+        "wires": [
+            [
+                "d432f4ff61d8253e"
+            ]
+        ]
+    },
+    {
+        "id": "86b3596cd557d6fe",
+        "type": "http request",
+        "z": "443f516c02693a8e",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 510,
+        "y": 400,
+        "wires": [
+            [
+                "62d3eb49dca979a7"
+            ]
+        ]
+    },
+    {
+        "id": "62d3eb49dca979a7",
+        "type": "debug",
+        "z": "443f516c02693a8e",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "d432f4ff61d8253e",
+        "type": "function",
+        "z": "443f516c02693a8e",
+        "name": "function 2",
+        "func": "\n// Simular temperatura (ej. 15 a 35) y humedad (ej. 40 a 90)\nvar temp = Math.floor(Math.random() * (35 - 15 + 1)) + 15;\nvar hum = Math.floor(Math.random() * (90 - 40 + 1)) + 40;\n\n// Construir la URL dinámicamente. Cambia localhost por tu IP si es necesario.\nmsg.url = \"http://localhost:1880/sensores/\" + temp + \"/\" + hum;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 380,
+        "wires": [
+            [
+                "86b3596cd557d6fe"
+            ]
+        ]
+    },
+    {
+        "id": "96e1dad2f0a9eb70",
+        "type": "http in",
+        "z": "e89254d2f04477ea",
+        "name": "",
+        "url": "/sensores/:temp/:hum",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 220,
+        "wires": [
+            [
+                "764c1e9395712ff7",
+                "ea4104c4942399f0",
+                "4b76871b92aadbdc"
+            ]
+        ]
+    },
+    {
+        "id": "196f2a5d714d02bf",
+        "type": "http response",
+        "z": "e89254d2f04477ea",
+        "name": "OK",
+        "statusCode": "",
+        "headers": {},
+        "x": 570,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "4b76871b92aadbdc",
+        "type": "debug",
+        "z": "e89254d2f04477ea",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "ea4104c4942399f0",
+        "type": "template",
+        "z": "e89254d2f04477ea",
+        "name": "Hola mundo",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<html>\n<body>\n\n<h1>Server REST</h1>\n\n<p>Solo estamos recibiendo parametros de temp y h...</p>\n\n</body>\n</html>",
+        "output": "str",
+        "x": 410,
+        "y": 200,
+        "wires": [
+            [
+                "196f2a5d714d02bf"
+            ]
+        ]
+    },
+    {
+        "id": "764c1e9395712ff7",
+        "type": "function",
+        "z": "e89254d2f04477ea",
+        "name": "function 1",
+        "func": "var temp = msg.req.params.temp;\nvar hum = msg.req.params.hum;\n\n// Enviar temperatura por la salida 1 y humedad por la salida 2\nreturn [{ payload: temp }, { payload: hum }];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 320,
+        "wires": [
+            [
+                "1c75e8f2e87751b0"
+            ],
+            [
+                "b87af8c31501d3b8"
+            ]
+        ]
+    },
+    {
+        "id": "1c75e8f2e87751b0",
+        "type": "ui-gauge",
+        "z": "e89254d2f04477ea",
+        "name": "",
+        "group": "93c75dc7999a4096",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "TEMPERATURA",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 530,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b87af8c31501d3b8",
+        "type": "ui-gauge",
+        "z": "e89254d2f04477ea",
+        "name": "",
+        "group": "93c75dc7999a4096",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "HUMEDAD",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 490,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1fef0ba1fd95045e",
+        "type": "inject",
+        "z": "2175683c8d5a7e21",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"temp\":12,\"hum\":24.2}",
+        "payloadType": "json",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "bf40f5ec9073fa8e"
+            ]
+        ]
+    },
+    {
+        "id": "06b2b87c314ff62f",
+        "type": "http request",
+        "z": "2175683c8d5a7e21",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://127.0.0.1:1880/sensorpost",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 610,
+        "y": 100,
+        "wires": [
+            [
+                "89efe84aaa3b08fb"
+            ]
+        ]
+    },
+    {
+        "id": "89efe84aaa3b08fb",
+        "type": "debug",
+        "z": "2175683c8d5a7e21",
+        "name": "Cliente POST",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "bf40f5ec9073fa8e",
+        "type": "random",
+        "z": "2175683c8d5a7e21",
+        "name": "",
+        "low": 1,
+        "high": "100.00",
+        "inte": "false",
+        "property": "payload.temp",
+        "x": 320,
+        "y": 100,
+        "wires": [
+            [
+                "85c2de6da10719b9"
+            ]
+        ]
+    },
+    {
+        "id": "85c2de6da10719b9",
+        "type": "random",
+        "z": "2175683c8d5a7e21",
+        "name": "",
+        "low": 1,
+        "high": "100.00",
+        "inte": "false",
+        "property": "payload.hum",
+        "x": 460,
+        "y": 100,
+        "wires": [
+            [
+                "06b2b87c314ff62f"
+            ]
+        ]
+    },
+    {
+        "id": "90bce0330769624a",
+        "type": "http in",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "url": "/sensorpost",
+        "method": "post",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "1bfe0577ed8148df",
+                "5ab72d0d24df733d",
+                "a552140e5057ff1a",
+                "e5008256282dd59e"
+            ]
+        ]
+    },
+    {
+        "id": "1bfe0577ed8148df",
+        "type": "http response",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "Ok",
+        "statusCode": "",
+        "headers": {},
+        "x": 410,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5ab72d0d24df733d",
+        "type": "debug",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a552140e5057ff1a",
+        "type": "change",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.temp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "999aeaf404745063"
+            ]
+        ]
+    },
+    {
+        "id": "e5008256282dd59e",
+        "type": "change",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.hum",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 200,
+        "wires": [
+            [
+                "694ed80f7ab30e44"
+            ]
+        ]
+    },
+    {
+        "id": "999aeaf404745063",
+        "type": "ui-gauge",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "group": "ee015a84b5230a26",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temperatura",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 670,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "694ed80f7ab30e44",
+        "type": "ui-gauge",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "group": "ee015a84b5230a26",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Humedad",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 660,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "comment_servidor",
+        "type": "comment",
+        "z": "tab_servidor",
+        "name": "Endpoint obligatorio y separación de lógica",
+        "info": "Este nodo HTTP IN escucha en /API/6toB/Carlos.\nUsa un nodo switch para saber si el cliente solicita 'consumo' o 'ubicacion' mediante un parámetro en la URL.",
+        "x": 200,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "http_in_server",
+        "type": "http in",
+        "z": "tab_servidor",
+        "name": "Recepción Solicitudes",
+        "url": "/API/6toB/Carlos",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "switch_tipo"
+            ]
+        ]
+    },
+    {
+        "id": "switch_tipo",
+        "type": "switch",
+        "z": "tab_servidor",
+        "name": "Filtrar por tipo",
+        "property": "req.query.tipo",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "consumo",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ubicacion",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 340,
+        "y": 140,
+        "wires": [
+            [
+                "func_consumo"
+            ],
+            [
+                "func_ubicacion"
+            ]
+        ]
+    },
+    {
+        "id": "func_consumo",
+        "type": "function",
+        "z": "tab_servidor",
+        "name": "Generar Consumo Dinámico",
+        "func": "// Genera un valor aleatorio entre 1.0 y 15.0\nlet valor_dinamico = (Math.random() * (15.0 - 1.0) + 1.0).toFixed(1);\n\nmsg.payload = {\n  \"sistema\": \"Monitoreo Energético\",\n  \"consumo_kwh\": parseFloat(valor_dinamico),\n  \"unidad\": \"kWh\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 100,
+        "wires": [
+            [
+                "http_response"
+            ]
+        ]
+    },
+    {
+        "id": "func_ubicacion",
+        "type": "function",
+        "z": "tab_servidor",
+        "name": "Datos de Ubicación",
+        "func": "// Respuesta estática de ubicación\nmsg.payload = {\n  \"laboratorio\": \"Laboratorio de Redes\",\n  \"bloque\": \"Bloque de Ingeniería\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 180,
+        "wires": [
+            [
+                "http_response"
+            ]
+        ]
+    },
+    {
+        "id": "http_response",
+        "type": "http response",
+        "z": "tab_servidor",
+        "name": "Respuesta al Cliente",
+        "statusCode": "200",
+        "headers": {},
+        "x": 820,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "a3d3c4acce6603f2",
+        "type": "comment",
+        "z": "e1e1943be35643df",
+        "name": "CLIENTE REST: Solicitudes hacia el Servidor",
+        "info": "Nodos cliente que interactúan con el dashboard y envían peticiones HTTP GET al servidor.",
+        "x": 230,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "bd8a5cff05cc7afa",
+        "type": "inject",
+        "z": "e1e1943be35643df",
+        "name": "Prueba manual: Consumo",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "2a54fc0aaca4416a"
+            ]
+        ]
+    },
+    {
+        "id": "2a54fc0aaca4416a",
+        "type": "http request",
+        "z": "e1e1943be35643df",
+        "name": "HTTP Request Consumo",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://localhost:1880/API/6toB/Carlos?tipo=consumo",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 510,
+        "y": 140,
+        "wires": [
+            [
+                "4d0e13f72f6fbb9a"
+            ]
+        ]
+    },
+    {
+        "id": "4d0e13f72f6fbb9a",
+        "type": "debug",
+        "z": "e1e1943be35643df",
+        "name": "debug1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 800,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "795567269830fb92",
+        "type": "inject",
+        "z": "e1e1943be35643df",
+        "name": "Prueba manual: Ubicación",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 320,
+        "wires": [
+            [
+                "52f51ddd0d8fa8bb"
+            ]
+        ]
+    },
+    {
+        "id": "52f51ddd0d8fa8bb",
+        "type": "http request",
+        "z": "e1e1943be35643df",
+        "name": "HTTP Request Ubicación",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://localhost:1880/API/6toB/Carlos?tipo=ubicacion",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 510,
+        "y": 260,
+        "wires": [
+            [
+                "0a41a2b1feb9b16a"
+            ]
+        ]
+    },
+    {
+        "id": "0a41a2b1feb9b16a",
+        "type": "debug",
+        "z": "e1e1943be35643df",
+        "name": "debug2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 750,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "40521ef7a38faacb",
+        "type": "ui-button",
+        "z": "e1e1943be35643df",
+        "group": "5e3d3e6fd3322402",
+        "name": "Boton Consumo",
+        "label": "Consultar consumo energetico",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "2a54fc0aaca4416a"
+            ]
+        ]
+    },
+    {
+        "id": "903db24e2f538b23",
+        "type": "ui-button",
+        "z": "e1e1943be35643df",
+        "group": "5e3d3e6fd3322402",
+        "name": "Boton Ubicacion",
+        "label": "Consultar ubicacion del laboratorio",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 200,
+        "y": 280,
+        "wires": [
+            [
+                "52f51ddd0d8fa8bb"
+            ]
+        ]
+    },
+    {
+        "id": "73f0b529108acc49",
+        "type": "comment",
+        "z": "e1e1943be35643df",
+        "name": "Solicitud de consulta de consumo energético",
+        "info": "",
+        "x": 190,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "9a7376f5dad72662",
+        "type": "comment",
+        "z": "e1e1943be35643df",
+        "name": "Realiza la petición GET al servidor",
+        "info": "",
+        "x": 540,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "044fa0def9b32d90",
+        "type": "comment",
+        "z": "e1e1943be35643df",
+        "name": "Consulta de ubicación desde el Dashboard.",
+        "info": "",
+        "x": 170,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "7e04dff630891db5",
+        "type": "comment",
+        "z": "e1e1943be35643df",
+        "name": "Realiza la petición GET al servidor",
+        "info": "",
+        "x": 520,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b6b89bb0bd650823",
+        "type": "comment",
+        "z": "e1e1943be35643df",
+        "name": "Muestra en consola el objeto recibido con el consumo en kWh.",
+        "info": "",
+        "x": 960,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "57a72b01570d8028",
+        "type": "comment",
+        "z": "e1e1943be35643df",
+        "name": "Muestra en consola la ubicación recibida (laboratorio y bloque).",
+        "info": "",
+        "x": 970,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c7d2beb1fbd0d97f",
+        "type": "comment",
+        "z": "4711a5b59ec63284",
+        "name": "SERVIDOR REST: Endpoint /API/6toB/Carlos",
+        "info": "Servidor HTTP que expone el endpoint solicitado y entrega los datos correspondientes según la consulta.",
+        "x": 230,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "700ce8e762360fca",
+        "type": "http in",
+        "z": "4711a5b59ec63284",
+        "name": "[GET] /API/6toB/Carlos",
+        "url": "/API/6toB/Carlos",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 160,
+        "wires": [
+            [
+                "be441291a6a619e9"
+            ]
+        ]
+    },
+    {
+        "id": "be441291a6a619e9",
+        "type": "switch",
+        "z": "4711a5b59ec63284",
+        "name": "Enrutador por Query Param (?tipo=)",
+        "property": "req.query.tipo",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "consumo",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ubicacion",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 510,
+        "y": 160,
+        "wires": [
+            [
+                "9d05749d7c943365"
+            ],
+            [
+                "084b0e77eeabbe18"
+            ]
+        ]
+    },
+    {
+        "id": "9d05749d7c943365",
+        "type": "function",
+        "z": "4711a5b59ec63284",
+        "name": "Generar JSON Consumo (Dinámico)",
+        "func": "// Generación de un valor dinámico en el rango sugerido (1.0 a 15.0 kWh)\nconst consumo = parseFloat((Math.random() * (15.0 - 1.0) + 1.0).toFixed(1));\n\nmsg.payload = {\n    \"sistema\": \"Monitoreo Energético\",\n    \"consumo_kwh\": consumo,\n    \"unidad\": \"kWh\"\n};\n\nmsg.statusCode = 200;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 100,
+        "wires": [
+            [
+                "eaddcf72ce919c1c"
+            ]
+        ]
+    },
+    {
+        "id": "084b0e77eeabbe18",
+        "type": "function",
+        "z": "4711a5b59ec63284",
+        "name": "Generar JSON Ubicación",
+        "func": "// Retorno de información de laboratorio y bloque\nmsg.payload = {\n    \"laboratorio\": \"Laboratorio de Redes\",\n    \"bloque\": \"Bloque de Ingeniería\"\n};\n\nmsg.statusCode = 200;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 240,
+        "wires": [
+            [
+                "eaddcf72ce919c1c"
+            ]
+        ]
+    },
+    {
+        "id": "eaddcf72ce919c1c",
+        "type": "http response",
+        "z": "4711a5b59ec63284",
+        "name": "Respuesta HTTP Server",
+        "statusCode": "",
+        "headers": {},
+        "x": 1130,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "e9aae8f73e7efe3e",
+        "type": "comment",
+        "z": "4711a5b59ec63284",
+        "name": "Recibe las solicitudes HTTP GET en el endpoint del servidor.",
+        "info": "",
+        "x": 280,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "09313dcd9792953d",
+        "type": "comment",
+        "z": "4711a5b59ec63284",
+        "name": "Filtra según el parámetro ?tipo=",
+        "info": "",
+        "x": 490,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "a785926f3e0ef2c1",
+        "type": "comment",
+        "z": "4711a5b59ec63284",
+        "name": "Genera el JSON con el consumo aleatorio entre 1.0 y 15.0 kWh.",
+        "info": "",
+        "x": 930,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "52e11abe7a3b0d40",
+        "type": "comment",
+        "z": "4711a5b59ec63284",
+        "name": "Retorna el JSON con los datos del laboratorio y bloque.",
+        "info": "",
+        "x": 820,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "368e70424a3f4e0b",
+        "type": "comment",
+        "z": "4711a5b59ec63284",
+        "name": "Envía la respuesta JSON final de vuelta al cliente.",
+        "info": "",
+        "x": 1250,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b282ad2cf72a8bc8",
+        "type": "ui-markdown",
+        "z": "38b8d2221e522614",
+        "group": "38ee26f259ac1bf8",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "# Plataforma IoT - UTMACH\n\n**Facultad de Ingeniería Civil · Carrera de Tecnologías de la Información**\n\n## Consolidación de laboratorios — Primer hemisemestre\n\nEsta página reúne todos los laboratorios realizados en Node-RED. Cada uno tiene su propia página en el árbol de navegación (menú izquierdo) y conserva el código con el que fue ejecutado.\n\n## Laboratorios\n\n* **Lab Inicial A - Change:** Uso del nodo *change* para extraer campos de un JSON (`temp`, `hum`, `name`) y asignarlos a propiedades del mensaje. -> [Ir a Lab Inicial A - Change](/dashboard/lab-inicial-a)\n\n* **Lab Inicial B - Temperatura:** Generación de temperatura aleatoria y clasificación con un nodo *switch* (alta / estable). -> [Ir a Lab Inicial B - Temperatura](/dashboard/lab-inicial-b)\n\n* **Laboratorio 1:** Valores aleatorios mostrados en medidores (temperatura y velocidad) y en una gráfica. -> [Ir a Laboratorio 1](/dashboard/lab1)\n\n* **Laboratorio 1.1:** Control de un indicador tipo LED según un umbral de temperatura aleatoria. -> [Ir a Laboratorio 1.1](/dashboard/lab1-1)\n\n* **Laboratorio 2:** Tres series (x, y, z) con datos aleatorios consolidadas en una sola gráfica. -> [Ir a Laboratorio 2](/dashboard/lab2)\n\n* **Laboratorio 3 - MQTT:** Comunicación MQTT bidireccional con broker HiveMQ: publicar y suscribirse. -> [Ir a Laboratorio 3 - MQTT](/dashboard/lab3)\n\n* **Laboratorio 4 - Puente MQTT:** Puente MQTT local-nube: replica temperatura, humedad y LED y devuelve el estado de un botón. -> [Ir a Laboratorio 4 - Puente MQTT](/dashboard/lab4)\n\n* **Laboratorio 5 - HTTP:** Cliente HTTP (GET) y servidor HTTP con parámetros en la URL. -> [Ir a Laboratorio 5 - HTTP](/dashboard/lab5)\n\n* **Práctica MQTT:** Ejercicio de publicación y suscripción MQTT en el broker local sobre el tópico `sala/clima`. -> [Ir a Práctica MQTT](/dashboard/practica-mqtt)\n\n* **Laboratorio 6 - POST:** Cliente y servidor HTTP con método POST para recibir datos de sensores. -> [Ir a Laboratorio 6 - POST](/dashboard/lab6)\n\n* **Clase 1 - Invernadero:** Simulación de un invernadero: el cliente publica sensores y el panel los recibe por MQTT. -> [Ir a Clase 1 - Invernadero](/dashboard/clase1)\n",
+        "className": "",
+        "x": 130,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "130dc0168bf95fa8",
+        "type": "ui-markdown",
+        "z": "4e5fb9e593e180fb",
+        "group": "489f0908340b05b6",
+        "name": "Descripción",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Lab Inicial A - Change\n\nUso del nodo *change* para extraer campos de un JSON (`temp`, `hum`, `name`) y asignarlos a propiedades del mensaje.\n\n**Flujo implementado:**\n**Pestañas de flujo:** `Laboratorio Inicial A (Change)`\n\n\n* Un nodo *inject* envía el JSON `{\"temp\":23,\"hum\":88,\"name\":\"pepito\"}`.\n* Tres nodos *change* copian `payload.temp`, `payload.hum` y `payload.name` a `msg.temp`, `msg.hum` y `msg.name`.\n* Cada resultado se revisa en la barra de depuración y se muestra en el panel.\n\n[Volver al inicio](/dashboard/inicio)",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ea034f8f39a78054",
+        "type": "inject",
+        "z": "4e5fb9e593e180fb",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Mensaje enviado",
+        "payload": "{ \"temp\": 23, \"hum\": 88, \"name\": \"pepito\"}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "38a718ea58b70f07",
+                "72ea507cbd4cc6c4",
+                "832cc3eb0c3db622",
+                "386ea35884f41902"
+            ]
+        ]
+    },
+    {
+        "id": "38a718ea58b70f07",
+        "type": "debug",
+        "z": "4e5fb9e593e180fb",
+        "name": "msg",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "72ea507cbd4cc6c4",
+        "type": "change",
+        "z": "4e5fb9e593e180fb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "temp",
+                "pt": "msg",
+                "to": "payload.temp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 140,
+        "wires": [
+            [
+                "b6006ae4a8adf376",
+                "0800643ad3e119fb"
+            ]
+        ]
+    },
+    {
+        "id": "b6006ae4a8adf376",
+        "type": "debug",
+        "z": "4e5fb9e593e180fb",
+        "name": "temp",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "832cc3eb0c3db622",
+        "type": "change",
+        "z": "4e5fb9e593e180fb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hum",
+                "pt": "msg",
+                "to": "payload.hum",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "9c72c1de92428908",
+                "9d8f861104637c28"
+            ]
+        ]
+    },
+    {
+        "id": "9c72c1de92428908",
+        "type": "debug",
+        "z": "4e5fb9e593e180fb",
+        "name": "hum",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "386ea35884f41902",
+        "type": "change",
+        "z": "4e5fb9e593e180fb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "name",
+                "pt": "msg",
+                "to": "payload.name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 300,
+        "wires": [
+            [
+                "95e0908ceae6bddf",
+                "7edb7959dce1048b"
+            ]
+        ]
+    },
+    {
+        "id": "95e0908ceae6bddf",
+        "type": "debug",
+        "z": "4e5fb9e593e180fb",
+        "name": "name",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "0800643ad3e119fb",
+        "type": "ui-text",
+        "z": "4e5fb9e593e180fb",
+        "group": "437fe82963d4a167",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperatura",
+        "format": "{{msg.temp}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "temp",
+        "valueType": "msg",
+        "x": 760,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "9d8f861104637c28",
+        "type": "ui-text",
+        "z": "4e5fb9e593e180fb",
+        "group": "437fe82963d4a167",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Humedad",
+        "format": "{{msg.hum}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "hum",
+        "valueType": "msg",
+        "x": 760,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "7edb7959dce1048b",
+        "type": "ui-text",
+        "z": "4e5fb9e593e180fb",
+        "group": "437fe82963d4a167",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nombre",
+        "format": "{{msg.name}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "name",
+        "valueType": "msg",
+        "x": 760,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "7c6dffc4f6aeed68",
+        "type": "ui-markdown",
+        "z": "ca1a0515bb17f1b5",
+        "group": "9fb38ee00ee01bf0",
+        "name": "Descripción",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Lab Inicial B - Temperatura\n\nGeneración de temperatura aleatoria y clasificación con un nodo *switch* (alta / estable).\n\n**Flujo implementado:**\n**Pestañas de flujo:** `Laboratorio Inicial B (Temperatura)`\n\n\n* Un *inject* (cada 15 s) y un nodo *random* (0 a 60) generan `payload.temp`.\n* Un *switch* compara con 30: si es mayor, un *change* arma \"Alerta: Temperatura Alta\"; si no, \"Temperatura estable\". Ambos agregan `Ciudad = Machala`.\n* El mensaje resultante se muestra en el panel y en la depuración.\n\n[Volver al inicio](/dashboard/inicio)",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99ef4b5a213b7787",
+        "type": "inject",
+        "z": "ca1a0515bb17f1b5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{ \"temp\": 23, \"hum\": 88, \"name\": \"pepito\"}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "6deb9327f476c2cd"
+            ]
+        ]
+    },
+    {
+        "id": "6deb9327f476c2cd",
+        "type": "random",
+        "z": "ca1a0515bb17f1b5",
+        "name": "",
+        "low": "0",
+        "high": "60",
+        "inte": "true",
+        "property": "payload.temp",
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "2ccc04df709f819c",
+                "65eb750ddd987c6f",
+                "641ca6196d4df215"
+            ]
+        ]
+    },
+    {
+        "id": "2ccc04df709f819c",
+        "type": "debug",
+        "z": "ca1a0515bb17f1b5",
+        "name": "Temperatura real",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "65eb750ddd987c6f",
+        "type": "switch",
+        "z": "ca1a0515bb17f1b5",
+        "name": "",
+        "property": "payload.temp",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "30",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 560,
+        "y": 140,
+        "wires": [
+            [
+                "b9226080baafd42f"
+            ],
+            [
+                "a3a7779e0c626d86"
+            ]
+        ]
+    },
+    {
+        "id": "b9226080baafd42f",
+        "type": "change",
+        "z": "ca1a0515bb17f1b5",
+        "name": "Temp May",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Alerta: Temperatura Alta",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "Ciudad",
+                "pt": "msg",
+                "to": "Machala",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 140,
+        "wires": [
+            [
+                "0e61518afce6fa2c",
+                "ac9d1fd7e6e18468"
+            ]
+        ]
+    },
+    {
+        "id": "0e61518afce6fa2c",
+        "type": "debug",
+        "z": "ca1a0515bb17f1b5",
+        "name": "Temperatura alta",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "a3a7779e0c626d86",
+        "type": "change",
+        "z": "ca1a0515bb17f1b5",
+        "name": "Temp Men",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Temperatura estable",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "Ciudad",
+                "pt": "msg",
+                "to": "Machala",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 220,
+        "wires": [
+            [
+                "1c26a0b085208602",
+                "1908c5fdc0081223"
+            ]
+        ]
+    },
+    {
+        "id": "1c26a0b085208602",
+        "type": "debug",
+        "z": "ca1a0515bb17f1b5",
+        "name": "Temperatura estable",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "641ca6196d4df215",
+        "type": "ui-text",
+        "z": "ca1a0515bb17f1b5",
+        "group": "9079f5b2bbbbadbd",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperatura real",
+        "format": "{{msg.payload.temp}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.temp",
+        "valueType": "msg",
+        "x": 760,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "ac9d1fd7e6e18468",
+        "type": "ui-text",
+        "z": "ca1a0515bb17f1b5",
+        "group": "9079f5b2bbbbadbd",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estado",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 760,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "1908c5fdc0081223",
+        "type": "ui-text",
+        "z": "ca1a0515bb17f1b5",
+        "group": "9079f5b2bbbbadbd",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estado",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 740,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "3060fada7083dd23",
+        "type": "ui-markdown",
+        "z": "76f8d2cd71667f99",
+        "group": "8e78f5ab92fb849a",
+        "name": "Descripción",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Laboratorio 1\n\nValores aleatorios mostrados en medidores (temperatura y velocidad) y en una gráfica.\n\n**Flujo implementado:**\n**Pestañas de flujo:** `Laboratorio 1`\n\n\n* Un *inject* (cada 5 s, al iniciar) dispara dos nodos *random* (1 a 100).\n* El primero alimenta el medidor de Temperatura (°C) y la gráfica; el segundo, el medidor de Velocidad (Km/H).\n\n[Volver al inicio](/dashboard/inicio)",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6a6695ce815de9e5",
+        "type": "inject",
+        "z": "76f8d2cd71667f99",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "num",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "3152ff61e0930ff3",
+                "463abb6b24becd9f"
+            ]
+        ]
+    },
+    {
+        "id": "3152ff61e0930ff3",
+        "type": "random",
+        "z": "76f8d2cd71667f99",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "db3c6181d6e88223",
+                "56a0ee2fa988278a"
+            ]
+        ]
+    },
+    {
+        "id": "db3c6181d6e88223",
+        "type": "ui-gauge",
+        "z": "76f8d2cd71667f99",
+        "name": "Dash 1",
+        "group": "03b7800db21f5d64",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temperatura",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "30",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "50",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 540,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "56a0ee2fa988278a",
+        "type": "ui-chart",
+        "z": "76f8d2cd71667f99",
+        "group": "03b7800db21f5d64",
+        "name": "",
+        "label": "chart",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 540,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "463abb6b24becd9f",
+        "type": "random",
+        "z": "76f8d2cd71667f99",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 340,
+        "y": 140,
+        "wires": [
+            [
+                "7edb3888aec0be68"
+            ]
+        ]
+    },
+    {
+        "id": "7edb3888aec0be68",
+        "type": "ui-gauge",
+        "z": "76f8d2cd71667f99",
+        "name": "Dash 2",
+        "group": "03b7800db21f5d64",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Velocidad",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "Km/H",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "30",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "60",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 540,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d8b4886708576cd3",
+        "type": "ui-markdown",
+        "z": "14b779aef36c5ca6",
+        "group": "ed9fb4d18876bac6",
+        "name": "Descripción",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Laboratorio 1.1\n\nControl de un indicador tipo LED según un umbral de temperatura aleatoria.\n\n**Flujo implementado:**\n**Pestañas de flujo:** `Laboratorio 1.1`\n\n\n* Un *inject* (cada 15 s, al iniciar) y un *random* (0 a 100) generan `payload.temp`.\n* Un *switch* evalúa los umbrales (>= 50 y <= 15) y dos *change* ponen `payload` en `true` o `false`.\n* El indicador cambia de color (verde = true, rojo = false).\n\n[Volver al inicio](/dashboard/inicio)",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "15868de1487b03a5",
+        "type": "change",
+        "z": "14b779aef36c5ca6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 140,
+        "wires": [
+            [
+                "69523b7d52a0e9b4",
+                "7efe2774017e770c"
+            ]
+        ]
+    },
+    {
+        "id": "e3ec66effc9d39bf",
+        "type": "change",
+        "z": "14b779aef36c5ca6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 220,
+        "wires": [
+            [
+                "69523b7d52a0e9b4",
+                "7efe2774017e770c"
+            ]
+        ]
+    },
+    {
+        "id": "7c3dd33b9c31ce8b",
+        "type": "inject",
+        "z": "14b779aef36c5ca6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{ \"temp\": 23}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "fdc96b7314445886"
+            ]
+        ]
+    },
+    {
+        "id": "fdc96b7314445886",
+        "type": "random",
+        "z": "14b779aef36c5ca6",
+        "name": "",
+        "low": "0",
+        "high": "100",
+        "inte": "true",
+        "property": "payload.temp",
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "8e855e190d36f01c",
+                "8dcfe99184bb53fe",
+                "86d83f06fdbc7480"
+            ]
+        ]
+    },
+    {
+        "id": "8e855e190d36f01c",
+        "type": "switch",
+        "z": "14b779aef36c5ca6",
+        "name": "",
+        "property": "payload.temp",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "50",
+                "vt": "num"
+            },
+            {
+                "t": "lte",
+                "v": "15",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 560,
+        "y": 140,
+        "wires": [
+            [
+                "15868de1487b03a5"
+            ],
+            [
+                "e3ec66effc9d39bf"
+            ]
+        ]
+    },
+    {
+        "id": "8dcfe99184bb53fe",
+        "type": "debug",
+        "z": "14b779aef36c5ca6",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "69523b7d52a0e9b4",
+        "type": "debug",
+        "z": "14b779aef36c5ca6",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "7efe2774017e770c",
+        "type": "ui-template",
+        "z": "14b779aef36c5ca6",
+        "group": "a0878bf7568dea94",
+        "page": "",
+        "ui": "",
+        "name": "LED",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div style=\"display:flex;align-items:center;gap:12px\">\n    <div :style=\"{width:'36px',height:'36px',borderRadius:'50%',background: (msg && msg.payload === true) ? '#008000' : '#ff0000',boxShadow:'0 0 10px ' + ((msg && msg.payload === true) ? '#008000' : '#ff0000')}\"></div>\n    <span>LED: {{ (msg && msg.payload === true) ? 'ENCENDIDO (true)' : 'APAGADO (false)' }}</span>\n  </div>\n</template>",
+        "storeOutMessages": true,
+        "passthru": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 980,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "86d83f06fdbc7480",
+        "type": "ui-text",
+        "z": "14b779aef36c5ca6",
+        "group": "a0878bf7568dea94",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperatura",
+        "format": "{{msg.payload.temp}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.temp",
+        "valueType": "msg",
+        "x": 760,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "5d36cb086b5c11df",
+        "type": "ui-markdown",
+        "z": "92b935c3efba8b9a",
+        "group": "f3c93d898e46e3a0",
+        "name": "Descripción",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Laboratorio 2\n\nTres series (x, y, z) con datos aleatorios consolidadas en una sola gráfica.\n\n**Flujo implementado:**\n**Pestañas de flujo:** `Laboratorio 2`\n\n\n* Tres *inject* con topics `x`, `y` y `z` (cada 15 s) pasan por su propio nodo *random* (1 a 10).\n* Las tres salidas llegan al mismo nodo de gráfica, que agrupa las series por `msg.topic`.\n\n[Volver al inicio](/dashboard/inicio)",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9013f255c99accf8",
+        "type": "inject",
+        "z": "92b935c3efba8b9a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "x",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "def7252f89f56e4c"
+            ]
+        ]
+    },
+    {
+        "id": "76f73adf22aa3431",
+        "type": "inject",
+        "z": "92b935c3efba8b9a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "y",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "4c5e2fb8b452d507"
+            ]
+        ]
+    },
+    {
+        "id": "ed8d51578d1b2593",
+        "type": "inject",
+        "z": "92b935c3efba8b9a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "z",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "bd0b0b7fa90dcc59"
+            ]
+        ]
+    },
+    {
+        "id": "def7252f89f56e4c",
+        "type": "random",
+        "z": "92b935c3efba8b9a",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "payload",
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "cb46d458f60cc1db"
+            ]
+        ]
+    },
+    {
+        "id": "4c5e2fb8b452d507",
+        "type": "random",
+        "z": "92b935c3efba8b9a",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "payload",
+        "x": 340,
+        "y": 140,
+        "wires": [
+            [
+                "cb46d458f60cc1db"
+            ]
+        ]
+    },
+    {
+        "id": "bd0b0b7fa90dcc59",
+        "type": "random",
+        "z": "92b935c3efba8b9a",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "payload",
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "cb46d458f60cc1db"
+            ]
+        ]
+    },
+    {
+        "id": "cb46d458f60cc1db",
+        "type": "ui-chart",
+        "z": "92b935c3efba8b9a",
+        "group": "8175b1daed849813",
+        "name": "",
+        "label": "chart",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 540,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "10c946ed741dae49",
+        "type": "ui-markdown",
+        "z": "84e72135f08a6d56",
+        "group": "af6420573e9616c1",
+        "name": "Descripción",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Laboratorio 3 - MQTT\n\nComunicación MQTT bidireccional con broker HiveMQ: publicar y suscribirse.\n\n**Flujo implementado:**\n**Pestañas de flujo:** `Laboratorio 3 MQTT entrada y salida`\n\n\n* Un *mqtt in* se suscribe a `FIC/6A/#` y muestra `temp` y `hum` en dos medidores.\n* Un *inject* con topic `FIC/6A/Juan` genera valores aleatorios (*random*), arma el JSON con JSONata y lo publica con *mqtt out*.\n\n[Volver al inicio](/dashboard/inicio)",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a487c65fb2e3d133",
+        "type": "mqtt in",
+        "z": "84e72135f08a6d56",
+        "name": "",
+        "topic": "FIC/6A/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ff62dd987273727f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "01d24eb0f6b6ae12",
+                "40f50f9593381263",
+                "8380fa7ca236d708"
+            ]
+        ]
+    },
+    {
+        "id": "01d24eb0f6b6ae12",
+        "type": "debug",
+        "z": "84e72135f08a6d56",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "3fb5a334aaba308b",
+        "type": "mqtt out",
+        "z": "84e72135f08a6d56",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ff62dd987273727f",
+        "x": 980,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "88def2445d12b0ae",
+        "type": "inject",
+        "z": "84e72135f08a6d56",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FIC/6A/Juan",
+        "payload": "temp",
+        "payloadType": "msg",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "5efb170eb8f8953c"
+            ]
+        ]
+    },
+    {
+        "id": "70dd2ecd10cf5ccf",
+        "type": "change",
+        "z": "84e72135f08a6d56",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t    \"temp\": temp,\t    \"hum\": hum\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 60,
+        "wires": [
+            [
+                "5727d61a1475abb9",
+                "3fb5a334aaba308b"
+            ]
+        ]
+    },
+    {
+        "id": "5efb170eb8f8953c",
+        "type": "random",
+        "z": "84e72135f08a6d56",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "temp",
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "229ed25347d32862"
+            ]
+        ]
+    },
+    {
+        "id": "229ed25347d32862",
+        "type": "random",
+        "z": "84e72135f08a6d56",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "hum",
+        "x": 560,
+        "y": 60,
+        "wires": [
+            [
+                "70dd2ecd10cf5ccf"
+            ]
+        ]
+    },
+    {
+        "id": "5727d61a1475abb9",
+        "type": "debug",
+        "z": "84e72135f08a6d56",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "8380fa7ca236d708",
+        "type": "ui-gauge",
+        "z": "84e72135f08a6d56",
+        "name": "Hum",
+        "group": "95513c4aff9423be",
+        "order": 2,
+        "value": "payload.hum",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "300",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "400",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 330,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "40f50f9593381263",
+        "type": "ui-gauge",
+        "z": "84e72135f08a6d56",
+        "name": "Temp",
+        "group": "95513c4aff9423be",
+        "order": 1,
+        "value": "payload.temp",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "300",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "400",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 330,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65a21773ea0f6b57",
+        "type": "ui-markdown",
+        "z": "861060c89d7ff68b",
+        "group": "37e2e71d861e9453",
+        "name": "Descripción",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Laboratorio 4 - Puente MQTT\n\nPuente MQTT local-nube: replica temperatura, humedad y LED y devuelve el estado de un botón.\n\n**Flujo implementado:**\n**Pestañas de flujo:** `Laboratorio 4`\n\n\n* Se leen `local/iot/temp`, `hum` y `led` del Mosquitto local y se republican en `nube/iot_774/...` (EMQX).\n* Desde la nube se recibe `nube/iot_774/boton`, se reenvía a `local/iot/boton` y se muestra en el panel.\n\n[Volver al inicio](/dashboard/inicio)",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f40f902318b9d09",
+        "type": "mqtt in",
+        "z": "861060c89d7ff68b",
+        "name": "",
+        "topic": "local/iot/temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "7b691d10a86ee398",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "95722cd362dae7a1",
+                "ea8dfb1b4c1d489f"
+            ]
+        ]
+    },
+    {
+        "id": "7ac27acbd4857022",
+        "type": "mqtt in",
+        "z": "861060c89d7ff68b",
+        "name": "",
+        "topic": "local/iot/hum",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "7b691d10a86ee398",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "1d1befa564dfa35a",
+                "7a52efcd7d28da6f"
+            ]
+        ]
+    },
+    {
+        "id": "73b2f76b37d21d76",
+        "type": "mqtt in",
+        "z": "861060c89d7ff68b",
+        "name": "",
+        "topic": "local/iot/led",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "7b691d10a86ee398",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 500,
+        "wires": [
+            [
+                "9f64ff94f6c23d39",
+                "198f397b40743a3f"
+            ]
+        ]
+    },
+    {
+        "id": "95722cd362dae7a1",
+        "type": "mqtt out",
+        "z": "861060c89d7ff68b",
+        "name": "",
+        "topic": "nube/iot_774/temp",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "92714880e991c6e3",
+        "x": 340,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1d1befa564dfa35a",
+        "type": "mqtt out",
+        "z": "861060c89d7ff68b",
+        "name": "",
+        "topic": "nube/iot_774/hum",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "92714880e991c6e3",
+        "x": 340,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9f64ff94f6c23d39",
+        "type": "mqtt out",
+        "z": "861060c89d7ff68b",
+        "name": "",
+        "topic": "nube/iot_774/led",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "92714880e991c6e3",
+        "x": 340,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "2fbc0b9914121dba",
+        "type": "mqtt in",
+        "z": "861060c89d7ff68b",
+        "name": "",
+        "topic": "nube/iot_774/boton",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "92714880e991c6e3",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 720,
+        "wires": [
+            [
+                "bbc62429e47cf29e",
+                "60af8c0b4a8ff2ec",
+                "60c5d59367e6e857"
+            ]
+        ]
+    },
+    {
+        "id": "bbc62429e47cf29e",
+        "type": "mqtt out",
+        "z": "861060c89d7ff68b",
+        "name": "",
+        "topic": "local/iot/boton",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7b691d10a86ee398",
+        "x": 340,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "ea8dfb1b4c1d489f",
+        "type": "ui-gauge",
+        "z": "861060c89d7ff68b",
+        "name": "",
+        "group": "3a863c1c1907e77e",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 340,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7a52efcd7d28da6f",
+        "type": "ui-gauge",
+        "z": "861060c89d7ff68b",
+        "name": "",
+        "group": "3a863c1c1907e77e",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 340,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "198f397b40743a3f",
+        "type": "ui-text",
+        "z": "861060c89d7ff68b",
+        "group": "3a863c1c1907e77e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "led",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 340,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "60af8c0b4a8ff2ec",
+        "type": "ui-text",
+        "z": "861060c89d7ff68b",
+        "group": "3a863c1c1907e77e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "boton",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 340,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "60c5d59367e6e857",
+        "type": "debug",
+        "z": "861060c89d7ff68b",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "522eb961f92f30f1",
+        "type": "ui-markdown",
+        "z": "64f4ff8c3aaa24f4",
+        "group": "2da0b8c8539cac37",
+        "name": "Descripción",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Laboratorio 5 - HTTP\n\nCliente HTTP (GET) y servidor HTTP con parámetros en la URL.\n\n**Flujo implementado:**\n**Pestañas de flujo:** `Laboratorio 5 HTTP Cliente`, `Laboratorio 5 HTTP Servidor`\n\n\n* **Cliente:** un *inject* dispara un *http request* GET a `http://127.0.0.1:1880/sensores/23.8/89.7`.\n* **Servidor:** un *http in* en `/sensores/:temp/:hum` responde con una página HTML y, con una *function*, convierte los parámetros a número y los muestra en dos medidores.\n\n[Volver al inicio](/dashboard/inicio)",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0d59fdc2c1ae4329",
+        "type": "inject",
+        "z": "64f4ff8c3aaa24f4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "88f6581fff4e6428"
+            ]
+        ]
+    },
+    {
+        "id": "49580a838558e223",
+        "type": "debug",
+        "z": "64f4ff8c3aaa24f4",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "88f6581fff4e6428",
+        "type": "http request",
+        "z": "64f4ff8c3aaa24f4",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://127.0.0.1:1880/sensores/23.8/89.7",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "49580a838558e223",
+                "df92016aecb03ec9"
+            ]
+        ]
+    },
+    {
+        "id": "df92016aecb03ec9",
+        "type": "ui-text",
+        "z": "64f4ff8c3aaa24f4",
+        "group": "c352c0bbc59418b4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estado de la petición",
+        "format": "Código HTTP: {{msg.statusCode}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "statusCode",
+        "valueType": "msg",
+        "x": 760,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "e1af62305c57322b",
+        "type": "http in",
+        "z": "349811e150e1d013",
+        "name": "",
+        "url": "/sensores/:temp/:hum",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "849a91ab7fc8d434",
+                "b9bc33618d9409a5",
+                "5050ae658775ddf5"
+            ]
+        ]
+    },
+    {
+        "id": "849a91ab7fc8d434",
+        "type": "template",
+        "z": "349811e150e1d013",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dashboard Sensores</title>\n<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n<script src=\"https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js\"></script>\n</head>\n<body class=\"bg-dark text-white\">\n<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary\">\n<div class=\"container-fluid\">\n<a class=\"navbar-brand\" href=\"#\">Dashboard REST</a>\n</div>\n</nav>\n<div class=\"container mt-5\">\n<div class=\"row justify-content-center\">\n<div class=\"col-md-6 mb-4\">\n<div class=\"card bg-secondary text-white shadow\">\n<div class=\"card-header text-center fs-4\">Temperatura</div>\n<div class=\"card-body\">\n<div id=\"gaugeTemp\" style=\"width: 100%; height: 350px;\"></div>\n</div>\n</div>\n</div>\n<div class=\"col-md-6 mb-4\">\n<div class=\"card bg-secondary text-white shadow\">\n<div class=\"card-header text-center fs-4\">Humedad</div>\n<div class=\"card-body\">\n<div id=\"gaugeHum\" style=\"width: 100%; height: 350px;\"></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<script>\nvar tempChart = echarts.init(document.getElementById('gaugeTemp'), 'dark');\nvar humChart = echarts.init(document.getElementById('gaugeHum'), 'dark');\nvar tempOption = {\nbackgroundColor: 'transparent',\nseries: [{\ntype: 'gauge',\nprogress: { show: true, width: 18 },\naxisLine: { lineStyle: { width: 18 } },\naxisTick: { show: false },\nsplitLine: { length: 15, lineStyle: { width: 2, color: '#999' } },\naxisLabel: { distance: 25, color: '#999', fontSize: 14 },\nanchor: { show: true, showAbove: true, size: 25, itemStyle: { borderWidth: 10 } },\ntitle: { show: false },\ndetail: { valueAnimation: true, fontSize: 30, offsetCenter: [0, '70%'], formatter: '{value} °C' },\ndata: [{ value: {{req.params.temp}} }]\n}]\n};\nvar humOption = {\nbackgroundColor: 'transparent',\nseries: [{\ntype: 'gauge',\nprogress: { show: true, width: 18, itemStyle: { color: '#5470c6' } },\naxisLine: { lineStyle: { width: 18 } },\naxisTick: { show: false },\nsplitLine: { length: 15, lineStyle: { width: 2, color: '#999' } },\naxisLabel: { distance: 25, color: '#999', fontSize: 14 },\nanchor: { show: true, showAbove: true, size: 25, itemStyle: { borderWidth: 10 } },\ntitle: { show: false },\ndetail: { valueAnimation: true, fontSize: 30, offsetCenter: [0, '70%'], formatter: '{value} %' },\ndata: [{ value: {{req.params.hum}} }]\n}]\n};\ntempChart.setOption(tempOption);\nhumChart.setOption(humOption);\nwindow.addEventListener('resize', function() {\ntempChart.resize();\nhumChart.resize();\n});\n</script>\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js\"></script>\n</body>\n</html>",
+        "output": "str",
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "6660fcea0a644e0b"
+            ]
+        ]
+    },
+    {
+        "id": "6660fcea0a644e0b",
+        "type": "http response",
+        "z": "349811e150e1d013",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 560,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "b9bc33618d9409a5",
+        "type": "debug",
+        "z": "349811e150e1d013",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "req.params",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "5050ae658775ddf5",
+        "type": "function",
+        "z": "349811e150e1d013",
+        "name": "function 1",
+        "func": "var msgTemp = { payload: Number(msg.req.params.temp) };\nvar msgHum = { payload: Number(msg.req.params.hum) };\nreturn [msgTemp, msgHum];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "76bb3c9e67427053"
+            ],
+            [
+                "334bcbec4c296647"
+            ]
+        ]
+    },
+    {
+        "id": "76bb3c9e67427053",
+        "type": "ui-gauge",
+        "z": "349811e150e1d013",
+        "name": "",
+        "group": "c352c0bbc59418b4",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 560,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "334bcbec4c296647",
+        "type": "ui-gauge",
+        "z": "349811e150e1d013",
+        "name": "",
+        "group": "c352c0bbc59418b4",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 560,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "768f4dfa1d8f4b1a",
+        "type": "ui-template",
+        "z": "349811e150e1d013",
+        "group": "c352c0bbc59418b4",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<style>\nmd-card {\n    background-color: #212529 !important;\n    border: 1px solid #495057 !important;\n    border-radius: 12px !important;\n    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6) !important;\n}\n.nr-dashboard-gauge text {\n    fill: #f8f9fa !important;\n    font-weight: bold !important;\n    font-family: system-ui, -apple-system, sans-serif !important;\n}\n.nr-dashboard-gauge .title {\n    font-size: 22px !important;\n    color: #f8f9fa !important;\n    text-transform: uppercase !important;\n}\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 130,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "403a0038d58ca6a8",
+        "type": "ui-markdown",
+        "z": "b9c2f04cdf364e7a",
+        "group": "9e698d7f004d7bcf",
+        "name": "Descripción",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Práctica MQTT\n\nEjercicio de publicación y suscripción MQTT en el broker local sobre el tópico `sala/clima`.\n\n**Flujo implementado:**\n**Pestañas de flujo:** `Práctica de Ejercicio MQTT`\n\n\n* Un *inject* publica `{\"temperatura\":22.4,\"humedad\":60,\"dispositivo\":\"DHT22_01\"}` (QoS 1) con *mqtt out*.\n* Un *mqtt in* suscrito a `sala/clima` recibe el mensaje y lo muestra.\n\n[Volver al inicio](/dashboard/inicio)",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8efa019c6c69153c",
+        "type": "inject",
+        "z": "b9c2f04cdf364e7a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "sala/clima",
+        "payload": "{\"temperatura\": 22.4, \"humedad\": 60, \"dispositivo\": \"DHT22_01\"}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "adc048e51f486b4f"
+            ]
+        ]
+    },
+    {
+        "id": "adc048e51f486b4f",
+        "type": "mqtt out",
+        "z": "b9c2f04cdf364e7a",
+        "name": "",
+        "topic": "",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7b691d10a86ee398",
+        "x": 340,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5633617c7c1a84dc",
+        "type": "mqtt in",
+        "z": "b9c2f04cdf364e7a",
+        "name": "",
+        "topic": "sala/clima",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "7b691d10a86ee398",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "6f2224f87ed9ef1e",
+                "48790ef795693a4a",
+                "0b16f1bfc4557266",
+                "5251ec45f04b477f"
+            ]
+        ]
+    },
+    {
+        "id": "6f2224f87ed9ef1e",
+        "type": "debug",
+        "z": "b9c2f04cdf364e7a",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "48790ef795693a4a",
+        "type": "ui-text",
+        "z": "b9c2f04cdf364e7a",
+        "group": "e560f07171ce2fb3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperatura",
+        "format": "{{msg.payload.temperatura}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.temperatura",
+        "valueType": "msg",
+        "x": 760,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "0b16f1bfc4557266",
+        "type": "ui-text",
+        "z": "b9c2f04cdf364e7a",
+        "group": "e560f07171ce2fb3",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Humedad",
+        "format": "{{msg.payload.humedad}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.humedad",
+        "valueType": "msg",
+        "x": 760,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "5251ec45f04b477f",
+        "type": "ui-text",
+        "z": "b9c2f04cdf364e7a",
+        "group": "e560f07171ce2fb3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Dispositivo",
+        "format": "{{msg.payload.dispositivo}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.dispositivo",
+        "valueType": "msg",
+        "x": 760,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "bcabf51f14d734b2",
+        "type": "ui-markdown",
+        "z": "48e88f6d9f083af8",
+        "group": "33371b45a31715c8",
+        "name": "Descripción",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Laboratorio 6 - POST\n\nCliente y servidor HTTP con método POST para recibir datos de sensores.\n\n**Flujo implementado:**\n**Pestañas de flujo:** `Laboratorio 6 Cliente POST`, `Laboratorio 6 Servidor POST`\n\n\n* **Cliente:** un *inject* genera `temp` y `hum` aleatorios (1 a 100) y los envía por POST a `/sensorpost`.\n* **Servidor:** un *http in* (POST) responde \"Ok\" y separa `payload.temp` y `payload.hum` para actualizar los medidores.\n\n[Volver al inicio](/dashboard/inicio)",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6882b42651c95249",
+        "type": "inject",
+        "z": "48e88f6d9f083af8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"temp\":12,\"hum\":24.2}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "72b2b09015a812e0"
+            ]
+        ]
+    },
+    {
+        "id": "737f0f92703a642f",
+        "type": "http request",
+        "z": "48e88f6d9f083af8",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://127.0.0.1:1880/sensorpost",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 770,
+        "y": 60,
+        "wires": [
+            [
+                "cb4b991b35462305",
+                "ff137b99eb1ee2b5"
+            ]
+        ]
+    },
+    {
+        "id": "cb4b991b35462305",
+        "type": "debug",
+        "z": "48e88f6d9f083af8",
+        "name": "Cliente POST",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "72b2b09015a812e0",
+        "type": "random",
+        "z": "48e88f6d9f083af8",
+        "name": "",
+        "low": 1,
+        "high": "100.00",
+        "inte": "false",
+        "property": "payload.temp",
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "e7e62c6441fdb1f8"
+            ]
+        ]
+    },
+    {
+        "id": "e7e62c6441fdb1f8",
+        "type": "random",
+        "z": "48e88f6d9f083af8",
+        "name": "",
+        "low": 1,
+        "high": "100.00",
+        "inte": "false",
+        "property": "payload.hum",
+        "x": 560,
+        "y": 60,
+        "wires": [
+            [
+                "737f0f92703a642f"
+            ]
+        ]
+    },
+    {
+        "id": "ff137b99eb1ee2b5",
+        "type": "ui-text",
+        "z": "48e88f6d9f083af8",
+        "group": "215beaf6d0aa18f3",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Código HTTP",
+        "format": "{{msg.statusCode}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "statusCode",
+        "valueType": "msg",
+        "x": 760,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "36606ab1dc6390e6",
+        "type": "http in",
+        "z": "b00983185c0bcf40",
+        "name": "",
+        "url": "/sensorpost",
+        "method": "post",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "77ceaebbcc93b3f4",
+                "17931eb27356f852",
+                "f54e3c1b1ee19358",
+                "a5f4b5b4efdd51b0"
+            ]
+        ]
+    },
+    {
+        "id": "77ceaebbcc93b3f4",
+        "type": "http response",
+        "z": "b00983185c0bcf40",
+        "name": "Ok",
+        "statusCode": "",
+        "headers": {},
+        "x": 340,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "17931eb27356f852",
+        "type": "debug",
+        "z": "b00983185c0bcf40",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f54e3c1b1ee19358",
+        "type": "change",
+        "z": "b00983185c0bcf40",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.temp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 140,
+        "wires": [
+            [
+                "0e61fbda16ca6efb"
+            ]
+        ]
+    },
+    {
+        "id": "a5f4b5b4efdd51b0",
+        "type": "change",
+        "z": "b00983185c0bcf40",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.hum",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "e93fd92f999600c1"
+            ]
+        ]
+    },
+    {
+        "id": "0e61fbda16ca6efb",
+        "type": "ui-gauge",
+        "z": "b00983185c0bcf40",
+        "name": "",
+        "group": "215beaf6d0aa18f3",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 560,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e93fd92f999600c1",
+        "type": "ui-gauge",
+        "z": "b00983185c0bcf40",
+        "name": "",
+        "group": "215beaf6d0aa18f3",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 560,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d51343c64a1712de",
+        "type": "ui-markdown",
+        "z": "c66a900e6aefbe77",
+        "group": "34a5f038f6de0f8f",
+        "name": "Descripción",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Clase 1 - Invernadero\n\nSimulación de un invernadero: el cliente publica sensores y el panel los recibe por MQTT.\n\n**Flujo implementado:**\n**Pestañas de flujo:** `Clase 1 Cliente`, `Clase 1 Panel`\n\n\n* **Cliente:** publica humedad (30-90), temperatura (15-40) y un JSON de estado en `invernadero1/...`.\n* **Panel:** se suscribe a esos tópicos y muestra medidores y cuadros de texto (nombre, ubicación, riego y alarmas).\n\n[Volver al inicio](/dashboard/inicio)",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a81632e64d6e5c70",
+        "type": "inject",
+        "z": "c66a900e6aefbe77",
+        "name": "Humedad",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "invernadero1/sensores/humedad",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "82d0c48dc291bd59"
+            ]
+        ]
+    },
+    {
+        "id": "82d0c48dc291bd59",
+        "type": "random",
+        "z": "c66a900e6aefbe77",
+        "name": "Hum random",
+        "low": "30",
+        "high": "90",
+        "inte": "true",
+        "property": "payload",
+        "x": 330,
+        "y": 100,
+        "wires": [
+            [
+                "8fce4ccf94612e41",
+                "7947897a4c5f50c8",
+                "475e1818c35827ad"
+            ]
+        ]
+    },
+    {
+        "id": "5bf5187ba528f052",
+        "type": "inject",
+        "z": "c66a900e6aefbe77",
+        "name": "Temperatura",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "120",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "invernadero1/sensores/temperatura",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "4227d1bf340f4895"
+            ]
+        ]
+    },
+    {
+        "id": "4227d1bf340f4895",
+        "type": "random",
+        "z": "c66a900e6aefbe77",
+        "name": "Temp random",
+        "low": "15",
+        "high": "40",
+        "inte": "true",
+        "property": "payload",
+        "x": 330,
+        "y": 180,
+        "wires": [
+            [
+                "8fce4ccf94612e41",
+                "7947897a4c5f50c8",
+                "6707febdc45b22cf"
+            ]
+        ]
+    },
+    {
+        "id": "ad34c3d8248cb455",
+        "type": "inject",
+        "z": "c66a900e6aefbe77",
+        "name": "Enviar Estado",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "invernadero1/estado",
+        "payload": "{\"sistema\":{\"nombre\":\"Riego Inteligente\",\"ubicacion\":\"Invernadero 1\",\"estado\":{\"riego\":\"apagado\",\"alarmaTemperatura\":false,\"alarmaHumedad\":false}}}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "8fce4ccf94612e41",
+                "7947897a4c5f50c8"
+            ]
+        ]
+    },
+    {
+        "id": "8fce4ccf94612e41",
+        "type": "mqtt out",
+        "z": "c66a900e6aefbe77",
+        "name": "",
+        "topic": "",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7b691d10a86ee398",
+        "x": 530,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "7947897a4c5f50c8",
+        "type": "debug",
+        "z": "c66a900e6aefbe77",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "8b16f0213d0e88a3",
+        "type": "comment",
+        "z": "c66a900e6aefbe77",
+        "name": "Random",
+        "info": "Injecta un payload con un tópico \nSe le asigna un valor aleatorio \nEl valor es enviado hacia el broker\nAplica en Humedad y Temperatura",
+        "x": 330,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "aec928f2db4e7c4e",
+        "type": "comment",
+        "z": "c66a900e6aefbe77",
+        "name": "Estado",
+        "info": "El estado se mantiene estático\nEs enviado hacia el broker",
+        "x": 130,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "475e1818c35827ad",
+        "type": "ui-text",
+        "z": "c66a900e6aefbe77",
+        "group": "9d4555bec4581822",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Humedad enviada",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 760,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "6707febdc45b22cf",
+        "type": "ui-text",
+        "z": "c66a900e6aefbe77",
+        "group": "9d4555bec4581822",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperatura enviada",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 760,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "b55e319dc11c8771",
+        "type": "mqtt in",
+        "z": "b440b7bedd8ff139",
+        "name": "",
+        "topic": "invernadero1/sensores/humedad",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "7b691d10a86ee398",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "950394790118e379",
+                "d54ab316f6fb3077"
+            ]
+        ]
+    },
+    {
+        "id": "cee486991ffc02fc",
+        "type": "mqtt in",
+        "z": "b440b7bedd8ff139",
+        "name": "",
+        "topic": "invernadero1/sensores/temperatura",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "7b691d10a86ee398",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "d56b9d02843f1735",
+                "9618d964e63e1d92"
+            ]
+        ]
+    },
+    {
+        "id": "213504bf29bf24b8",
+        "type": "mqtt in",
+        "z": "b440b7bedd8ff139",
+        "name": "",
+        "topic": "invernadero1/estado",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "7b691d10a86ee398",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 540,
+        "wires": [
+            [
+                "291445eb6d76a08e",
+                "46c1cdc8084650f5",
+                "fe9b3dabb9e4ca19",
+                "8d17ca390e503004",
+                "e6e26c4835b350fb",
+                "1557c268e7bc2673"
+            ]
+        ]
+    },
+    {
+        "id": "291445eb6d76a08e",
+        "type": "debug",
+        "z": "b440b7bedd8ff139",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "d56b9d02843f1735",
+        "type": "debug",
+        "z": "b440b7bedd8ff139",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "950394790118e379",
+        "type": "debug",
+        "z": "b440b7bedd8ff139",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4213cc39e4a49cb7",
+        "type": "comment",
+        "z": "b440b7bedd8ff139",
+        "name": "Sensor humedad",
+        "info": "Recepta el valor aleatorio enviado por \nel tópico de humedad\nSe lo muestra en un dashboard",
+        "x": 130,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "612d06f85414a6cf",
+        "type": "comment",
+        "z": "b440b7bedd8ff139",
+        "name": "Sensor temperatura",
+        "info": "Recepta el valor aleatorio enviado por \nel tópico de temperatura\nSe lo muestra en un dashboard",
+        "x": 130,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "3ac60b0ff50d8417",
+        "type": "comment",
+        "z": "b440b7bedd8ff139",
+        "name": "Alerta Estado",
+        "info": "Recepta el JSON enviado por estado\nSe muestra cada valor por separado \nen un cuadro de texto\nAl ser estático nunca va a cambiar su \ncontenido",
+        "x": 130,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "d54ab316f6fb3077",
+        "type": "ui-gauge",
+        "z": "b440b7bedd8ff139",
+        "name": "",
+        "group": "9d4555bec4581822",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": "20",
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 340,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9618d964e63e1d92",
+        "type": "ui-gauge",
+        "z": "b440b7bedd8ff139",
+        "name": "",
+        "group": "9d4555bec4581822",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "20",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": "0",
+        "max": "50",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 340,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46c1cdc8084650f5",
+        "type": "ui-text",
+        "z": "b440b7bedd8ff139",
+        "group": "9d4555bec4581822",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nombre",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.sistema.nombre",
+        "valueType": "msg",
+        "x": 330,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "fe9b3dabb9e4ca19",
+        "type": "ui-text",
+        "z": "b440b7bedd8ff139",
+        "group": "9d4555bec4581822",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Ubicacion",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.sistema.ubicacion",
+        "valueType": "msg",
+        "x": 330,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "8d17ca390e503004",
+        "type": "ui-text",
+        "z": "b440b7bedd8ff139",
+        "group": "9d4555bec4581822",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Riego",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.sistema.estado.riego",
+        "valueType": "msg",
+        "x": 330,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "e6e26c4835b350fb",
+        "type": "ui-text",
+        "z": "b440b7bedd8ff139",
+        "group": "9d4555bec4581822",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperatura",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.sistema.estado.alarmaTemperatura",
+        "valueType": "msg",
+        "x": 330,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "1557c268e7bc2673",
+        "type": "ui-text",
+        "z": "b440b7bedd8ff139",
+        "group": "9d4555bec4581822",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Humedad",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.sistema.estado.alarmaHumedad",
+        "valueType": "msg",
+        "x": 330,
+        "y": 940,
+        "wires": []
+    }
+]
