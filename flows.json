@@ -1983,6 +1983,51 @@
         ]
     },
     {
+        "id": "bac94e39c38652a9",
+        "type": "inject",
+        "z": "64d31c059ba267af",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 200,
+        "wires": [
+            [
+                "e11364e77a8ebe83"
+            ]
+        ]
+    },
+    {
+        "id": "e11364e77a8ebe83",
+        "type": "debug",
+        "z": "64d31c059ba267af",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 140,
+        "wires": []
+    },
+    {
         "id": "comment_servidor",
         "type": "comment",
         "z": "tab_servidor",
