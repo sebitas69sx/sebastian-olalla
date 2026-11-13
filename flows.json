@@ -2094,6 +2094,51 @@
         "wires": []
     },
     {
+        "id": "0fe6fb8877fbb21d",
+        "type": "inject",
+        "z": "b16642913ba02898",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 180,
+        "wires": [
+            [
+                "939ea341526049f5"
+            ]
+        ]
+    },
+    {
+        "id": "939ea341526049f5",
+        "type": "debug",
+        "z": "b16642913ba02898",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 160,
+        "wires": []
+    },
+    {
         "id": "a3d3c4acce6603f2",
         "type": "comment",
         "z": "e1e1943be35643df",
